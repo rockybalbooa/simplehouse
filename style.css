@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+header {
+    background-image: url(images/banner.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: 0px;
+    position: relative;
+}
+
+.logo {
+    background-image: url(images/simple-house-logo.png);
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.textlogo {
+    position: absolute;
+    bottom: 50px;
+    left: 110px;
+}
+
+.textlogo p {
+    color: white;
+}
+
+.textlogo p:nth-child(1) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.textlogo p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+nav ul {
+    list-style-type: none;
+    position: absolute;
+    bottom: 60px;
+    right: 80px;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 30px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #aaa;
+}
+
+nav ul li:nth-child(1):hover {
+    border-bottom: 2px solid #aaa;
+}
+
+nav ul li:nth-child(2):hover {
+    border-bottom: 2px solid #aaa;
+}
+
+nav ul li:nth-child(3):hover {
+    border-bottom: 2px solid #aaa;
+}
+
+.welcome {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 5%;
+    position: relative;
+}
+
+.welcome h1 {
+    text-align: center;
+    font-size: 26px;
+    color: #333;
+}
+
+.welcome h2 {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    color: #555;
+    line-height: 25px;
+}
+
+.buttons {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 7%;
+
+}
+
+.buttons a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: darkseagreen;
+    border: 2px solid darkseagreen;
+    padding: 10px 30px;
+    margin-left: 50px;
+    border-radius: 3px;
+}
+
+.buttons a:hover {
+    background-color: darkseagreen;
+    border-radius: 3px;
+    color: white;
+    transition: 0.3s;
+}
+
+.img {
+    background-image: url(images/gallery/01.jpg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+.img1 {
+    background-image: url(images/gallery/02.jpg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+.img2 {
+    background-image: url(images/gallery/03.jpg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+.img3 {
+    background-image: url(images/gallery/04.jpg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+.img4 {
+    background-image: url(images/gallery/05.jpg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+.img5 {
+    background-image: url(images/gallery/06.jpg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+.img6 {
+    background-image: url(images/gallery/07.jpg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+.img7 {
+    background-image: url(images/gallery/08.jpg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+.menu {
+    margin-top: 50px;
+}
+
+.food {
+    width: 25%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.text {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.text h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: dodgerblue;
+    margin-bottom: 30px;
+}
+
+.text p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.price {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.price p {
+    color: darkseagreen;
+    font-size: 18px;
+}
+
+
+.bottom {
+    max-width: 1280px;
+
+    padding: 50px;
+}
+
+
+.photo {
+    position: relative;
+    background-image: url(images/img-01.jpg);
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.endtext {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+}
+
+.endtext h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: dodgerblue;
+    margin-bottom: 15px;
+    ;
+}
+
+.endtext p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+
+}
+
+.readmore {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.readmore a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    color: #aaa;
+}
+
+footer {
+    padding-bottom: 50px;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+    text-align: center;
+
+}
